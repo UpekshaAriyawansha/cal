@@ -43,6 +43,7 @@ function App() {
             <Route path='blogs' element={<Addblog/>}/>
             <Route path='blogs/:id' element={<Addblog/>}/>
             <Route path='coupon-list' element={<Couponlist/>}/>
+            {/* git add */}
             <Route path='coupon' element={<AddCoupon/>}/>
             <Route path='coupon/:id' element={<AddCoupon/>}/>
             <Route path='blog-category' element={<AddblogCategorylist/>}/>
@@ -64,7 +65,7 @@ function App() {
             <Route path='orders' element={<Orders/>}/>
             <Route path='orders/:id' element={<Vieworder/>}/>
         </Route>
-        
+
       </Routes>
     </Router>
   );
